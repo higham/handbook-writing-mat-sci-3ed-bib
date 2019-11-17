@@ -14,19 +14,11 @@ Contents
 
 * `handbook-writing-mat-sci-3ed.bib`: bibliography file.
 
-* `companion_applied_mathematics.bib.tex`: LaTeX file that creates a
+* `handbook-writing-mat-sci-3ed`: LaTeX file that creates a
 document with a bibliography containing all the entries in
-`
-companion_applied_mathematics_sorted.tex.bib` sorted by author name.
+`handbook-writing-mat-sci-3ed` sorted by author name.
 
-* ` companion_applied_mathematics.pdf': The result of running pdfLaTeX and
-BibTeX on `companion_applied_mathematics_sorted.tex`
+* `handbook-writing-mat-sci-3ed.pdf`: The result of running pdfLaTeX and
+BibTeX on `handbook-writing-mat-sci-3ed.tex`
 
-* `companion_applied_mathematics_unsorted.tex`: LaTeX file that creates a
-document with a bibliography containing all the entries in
-`companion_applied_mathematics.bib` in the order in which they appear in
-the book.
-
-* `companion_applied_mathematics_unsorted.pdf`: The result of running
-  pdfLaTeX and BibTeX on `companion_applied_mathematics_unsorted.tex`.
 
