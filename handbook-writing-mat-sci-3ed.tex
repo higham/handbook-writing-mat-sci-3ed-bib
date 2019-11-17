@@ -1,0 +1,42 @@
+\documentclass[12pt]{article}
+\usepackage{texnames}
+
+\usepackage[hyphens]{url}
+\usepackage{color}
+\usepackage{graphicx}
+
+\definecolor{hotpink}{rgb}{0.9,0,0.5}
+
+\usepackage[colorlinks,urlcolor=blue,citecolor=hotpink,linkcolor=blue]{hyperref}
+
+\title{Bibliography \texttt{handbook-writing-mat-sci-3ed}}
+\author{Nicholas J. Higham%
+        \thanks{%
+                Department of Mathematics,
+                University of Manchester,
+                Manchester, M13 9PL, UK 
+                (\texttt{nick.higham@manchester.ac.uk},
+                \url{http://www.maths.manchester.ac.uk/\string~higham})
+               }
+}
+% \date{}
+
+\begin{document}
+\maketitle
+This is the bibliography of the book
+\begin{quote}
+Nicholas~J. Higham.
+{\em Handbook of Writing for the Mathematical Sciences}.
+Third edition, Society for Industrial and Applied Mathematics,
+  Philadelphia, PA, USA, 2020.
+xxi+353 pp.
+ISBN 978-1-611976-09-0.
+\end{quote}
+Blue denotes clickable links.
+
+\nocite{*}
+
+\bibliographystyle{myplain2-doi}
+\bibliography{strings,handbook-writing-mat-sci-3ed}
+
+\end{document}
