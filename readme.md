@@ -21,4 +21,9 @@ document with a bibliography containing all the entries in
 * `handbook-writing-mat-sci-3ed.pdf`: The result of running pdfLaTeX and
 BibTeX on `handbook-writing-mat-sci-3ed.tex`
 
+Note
+---------
+
+String definitions needed by the bib file are in `strings.bib` at
+[this location](https://raw.githubusercontent.com/higham/njhigham-bib/master/strings.bib).
 
